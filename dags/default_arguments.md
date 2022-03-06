@@ -12,6 +12,12 @@ default_args = {
     'retry_delay': timedelta(minutes=5),
     'end_date': datetime(2022, 6, 1),
 }
+
+dag = DAG(
+          'tutorial',
+          schedule_interval="@once",
+          default_args=args
+         )
 ```
 
 ## Task Owner 
