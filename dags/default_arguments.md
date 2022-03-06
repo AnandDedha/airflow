@@ -46,10 +46,10 @@ default_args = {
   **start_date (datetime)**  
             
     start_date: datetime(2022, 12, 7)
-    schedule_interval: '0 8 * * *'
+    schedule_interval: '@daily'
              
-The first run will kick in at 2022-12-08 at 08:00, this run execution_date will be: 2022-12-07 08:00  
-The next run will kick in at 2022-12-09 at 08:00, this run execution_date of 2022-12-08 08:00.  
+The first run will kick in at 2022-12-08 at 00:00, this run execution_date will be: 2022-12-07 08:00  
+The next run will kick in at 2022-12-09 at 00:00, this run execution_date of 2022-12-08 08:00.  
 So on.
 
 ![alt text](https://github.com/AnandDedha/airflow/blob/main/images/Airflow%20Start%20date.png "Start Date and Execution date")
