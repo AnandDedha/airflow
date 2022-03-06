@@ -53,7 +53,7 @@ this run execution_date will be: 2022-12-07 08:00
 The next run will kick in at 2022-12-09 at 08:00  
 this run execution_date of 2022-12-08 08:00.  
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://github.com/AnandDedha/airflow/blob/main/images/Airflow%20Start%20date.png "Start Date and Execution date")
 
   **end_date (datetime)**  
   **catchup (bool)**
