@@ -44,5 +44,14 @@ default_args = {
 |@yearly	|Run once a year at midnight of January 1	                       | 0 0 1 1 * |
     
   **start_date (datetime)**  
+            
+    start_date: datetime(2020, 12, 7, 8, 0,0)
+    schedule_interval: '0 8 * * *'
+             
+The first run will kick in at 2020-12-08 at 08:00+- (depends on resources)
+this run execution_date will be: 2020-12-07 08:00
+The next run will kick in at 2020-12-09 at 08:00
+this run execution_date of 2020-12-08 08:00.
+
   **end_date (datetime)**  
   **catchup (bool)**
