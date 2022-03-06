@@ -13,11 +13,10 @@ default_args = {
     'end_date': datetime(2022, 6, 1),
 }
 
-dag = DAG(
-          'tutorial',
-          schedule_interval="@once",
-          default_args=args
-         )
+with DAG('tutorial',
+          schedule_interval='@daily',  # Cron expression, here it is a preset of Airflow, @daily means once every day.
+          default_args=args 
+            ) as dag:
 ```
 
 ## Task Owner 
