@@ -45,7 +45,7 @@ default_args = {
     
   **start_date (datetime)**  
             
-    start_date: datetime(2020, 12, 7, 8, 0,0)
+    start_date: datetime(2022, 12, 7)
     schedule_interval: '0 8 * * *'
              
 The first run will kick in at 2022-12-08 at 08:00  
