@@ -55,4 +55,4 @@ So on.
 ![alt text](https://github.com/AnandDedha/airflow/blob/main/images/Airflow%20Start%20date.png "Start Date and Execution date")
 
   **end_date (datetime)**  
-  **catchup (bool)**
+  
