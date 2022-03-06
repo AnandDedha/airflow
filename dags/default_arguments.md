@@ -1,7 +1,7 @@
 # Default Arguments
 
 ```python
-default_args = {
+args = {
     'owner': 'airflow',
     'depends_on_past': False,
     'start_date': datetime(2022, 1, 1),
@@ -57,8 +57,8 @@ with DAG('tutorial',
     start_date: datetime(2019, 1, 1)
     schedule_interval: '@daily'
              
-The first run will kick in at 2019-01-02 at 00:00, this run execution_date will be: 2022-01-01 00:00  
-The next run will kick in at 2019-01-03 at 00:00, this run execution_date of 2022-01-02 00:00.  
+The first run will kick in at 2019-01-02 at 00:00, this run execution_date will be: 2019-01-01 00:00  
+The next run will kick in at 2019-01-03 at 00:00, this run execution_date of 2019-01-02 00:00.  
 So on.
 
 ![alt text](https://github.com/AnandDedha/airflow/blob/main/images/Airflow%20Start%20date.png "Start Date and Execution date")
